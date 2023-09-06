@@ -6,7 +6,7 @@ Uploading Data To S3 bucket
 
 cd to the data directory and then type this command
 
-aws s3 cp . s3://youtube-insights-bucket-ameyasgidh/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
+aws s3 cp . s3://youtubeinsightsbucket-ameya/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
 
 ### Seperate the data into respective folder based on their regions
 aws s3 cp CAvideos.csv s3://youtubeinsightsbucket-ameya/youtube/raw_statistics/region=ca/
