@@ -25,5 +25,7 @@ aws s3 cp JPvideos.csv s3://youtube-analyticsbucket-ameya/youtube/raw_statistics
 aws s3 cp KRvideos.csv s3://youtube-analyticsbucket-ameya/youtube/raw_statistics/region=kr/
 
 aws s3 cp MXvideos.csv s3://youtube-analyticsbucket-ameya/youtube/raw_statistics/region=mx/
+
 aws s3 cp RUvideos.csv s3://youtube-analyticsbucket-ameya/youtube/raw_statistics/region=ru/
+
 aws s3 cp USvideos.csv s3://youtube-analyticsbucket-ameya/youtube/raw_statistics/region=us/
